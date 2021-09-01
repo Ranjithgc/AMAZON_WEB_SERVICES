@@ -1,23 +1,23 @@
-## Working With EC2 Instances Using Python
+## Working With S3 Buckets:
 
 # Step 1:
 
-First we have to install the boto3 library.
+First We have to install S3FS.
 
-# $ pip3 install boto3
-
-Then We have to install aws cli 
-
-# $ pip3 install aws cli
+$ pip3 install s3fs.
 
 # Step 2:
 
-In this step we have to create another IAM User for developers. There will one option like this and add existing policy for the instance.
+Now We have to configure our access_key, Secret key in .env file and load that into out python file.
 
 # Step 3:
 
-After creating a user now in this step we have to give access_key, secrete_key, Default region name, Default output format. 
-
-# Step 4:
-In this Step we have to write python code for creating, starting, stopping, rebooting, terminating instances.
+In this step we have to write code for.
+1.Creating a Bucket.
+2.Listing Buckets.
+3.Create a Dataframe and load that into a bucket.
+4.Read Csv file from s3 bucket directly into python.
+5.Download file and read from disc.
+6.Deleting Data from a bucket.
+7.Delete a bucket from s3.
 
